@@ -118,8 +118,8 @@ SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortxlinks.com") # Shor
 SHORTENER_API3 = environ.get("SHORTENER_API3", "4ca77a5fb47413a9ca9cd39cb44fd8065312226b")  
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "softurl.in") # Shortener website for third website
 
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200")) # Time gap for two-step verification in seconds (default: 20 minutes)
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))    
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600")) # Time gap for two-step verification in seconds (default: 20 minutes)
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "36000"))    
 
 # ============================
 # Channel & Group Links Configuration
