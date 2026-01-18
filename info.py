@@ -35,7 +35,7 @@ COVERX = bool(environ.get('COVERX', True)) # Use cover image for indexed files (
 # If you disable it then bot will use a default thumb for all files
 
 PICS = (environ.get('PICS', '')).split() #random anime girl img each time from aniwallpaper (Experimental)
-# PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
+# PICS = (environ.get('PICS', 'https://i.ibb.co/zTWHGRy1/photo-2026-01-18-18-13-18-7596766483321978900.jpg https://i.ibb.co/VczJcpwP/photo-2026-01-18-18-15-19-7596766904228773912.jpg https://i.ibb.co/dwxNRCV7/photo-2026-01-18-18-16-15-7596767127567073296.jpg https://i.ibb.co/hxrKKKj7/photo-2026-01-18-18-17-04-7596767333725503500.jpg https://i.ibb.co/t67mN8c/photo-2026-01-18-18-17-54-7596767557063802900.jpg https://i.ibb.co/k2qdwK51/photo-2026-01-18-18-18-26-7596767690207789068.jpg https://i.ibb.co/KxXXVGVJ/photo-2026-01-18-18-19-07-7596767857711513616.jpg https://i.ibb.co/0yJ5KTrn/photo-2026-01-18-18-20-01-7596768111114584080.jpg https://i.ibb.co/v6NNVJZP/photo-2026-01-18-18-21-16-7596768416057262096.jpg https://i.ibb.co/YBw7wStj/photo-2026-01-18-18-21-46-7596768557791182868.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/56b5deb73f3b132e2bb73.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
